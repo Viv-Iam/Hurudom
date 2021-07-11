@@ -30,6 +30,10 @@ body {
   color: #817a78;
   overflow-x: hidden; }
 
+.hicon {
+  width: 50px;
+  height: 50px; }
+
 * {
   margin: 0;
   padding: 0;
@@ -1105,7 +1109,7 @@ p {
 
 .banner-slide {
   position: relative;
-  margin-top: 102px; }
+  margin-top: 102px;}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner-slide {
       margin-top: 70px; } }
@@ -1116,7 +1120,7 @@ p {
     position: absolute;
     bottom: 0;
     z-index: 99;
-    height: 80px;
+    /*height: 80px;*/
     width: 95px;
     background: #fff;
     text-align: center;
