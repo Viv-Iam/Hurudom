@@ -2340,7 +2340,8 @@ p {
       .we-knows-area .we-knows-item .we-knows-item-thumb {
         width: 50%; } }
     .we-knows-area .we-knows-item .we-knows-item-thumb img {
-      width: 100%; }
+      width: 100%;
+      height: 352px; }
   .we-knows-area .we-knows-item.item-2 .we-knows-item-content {
     margin-right: 0;
     margin-left: 5px;
