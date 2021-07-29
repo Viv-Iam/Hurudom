@@ -2,11 +2,11 @@ $flaticon-font: "flaticon";
 
 @font-face {
     font-family: $flaticon-font;
-    src: url("./flaticon.ttf?3f31d473e6949a18df9629e6ddab3b74") format("truetype"),
-url("./flaticon.woff?3f31d473e6949a18df9629e6ddab3b74") format("woff"),
-url("./flaticon.woff2?3f31d473e6949a18df9629e6ddab3b74") format("woff2"),
-url("./flaticon.eot?3f31d473e6949a18df9629e6ddab3b74#iefix") format("embedded-opentype"),
-url("./flaticon.svg?3f31d473e6949a18df9629e6ddab3b74#flaticon") format("svg");
+    src: url("./flaticon.ttf?26857db51925aefcf6ab04e4d76394d0") format("truetype"),
+url("./flaticon.woff?26857db51925aefcf6ab04e4d76394d0") format("woff"),
+url("./flaticon.woff2?26857db51925aefcf6ab04e4d76394d0") format("woff2"),
+url("./flaticon.eot?26857db51925aefcf6ab04e4d76394d0#iefix") format("embedded-opentype"),
+url("./flaticon.svg?26857db51925aefcf6ab04e4d76394d0#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -29,6 +29,8 @@ $flaticon-map: (
     "kitchen": "\f106",
     "digital": "\f107",
     "mentor": "\f108",
+    "arrow": "\f109",
+    "right-arrow": "\f10a",
 );
 
 .flaticon-cooking:before {
@@ -54,4 +56,10 @@ $flaticon-map: (
 }
 .flaticon-mentor:before {
     content: map-get($flaticon-map, "mentor");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon-map, "arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
 }

@@ -1109,7 +1109,7 @@ p {
 
 .banner-slide {
   position: relative;
-  /*margin-top: 102px;*/}
+  margin-top: 102px;}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .banner-slide {
       margin-top: 70px; } }
