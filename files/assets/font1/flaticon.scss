@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3f31d473e6949a18df9629e6ddab3b74") format("truetype"),
+url("./flaticon.woff?3f31d473e6949a18df9629e6ddab3b74") format("woff"),
+url("./flaticon.woff2?3f31d473e6949a18df9629e6ddab3b74") format("woff2"),
+url("./flaticon.eot?3f31d473e6949a18df9629e6ddab3b74#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3f31d473e6949a18df9629e6ddab3b74#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cooking": "\f101",
+    "chef": "\f102",
+    "food-store": "\f103",
+    "warehouse": "\f104",
+    "warehouse-1": "\f105",
+    "kitchen": "\f106",
+    "digital": "\f107",
+    "mentor": "\f108",
+);
+
+.flaticon-cooking:before {
+    content: map-get($flaticon-map, "cooking");
+}
+.flaticon-chef:before {
+    content: map-get($flaticon-map, "chef");
+}
+.flaticon-food-store:before {
+    content: map-get($flaticon-map, "food-store");
+}
+.flaticon-warehouse:before {
+    content: map-get($flaticon-map, "warehouse");
+}
+.flaticon-warehouse-1:before {
+    content: map-get($flaticon-map, "warehouse-1");
+}
+.flaticon-kitchen:before {
+    content: map-get($flaticon-map, "kitchen");
+}
+.flaticon-digital:before {
+    content: map-get($flaticon-map, "digital");
+}
+.flaticon-mentor:before {
+    content: map-get($flaticon-map, "mentor");
+}
